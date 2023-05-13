@@ -224,6 +224,7 @@ a {
       padding-inline: 2.5em;
       justify-content: space-around;
       width: 100%;
+      pointer-events: none;
     }
 
     .disclaimer p {
@@ -248,7 +249,6 @@ a {
     }
 
     #home-section {
-        background-color: var(--bg-page-primary);
         background-size: 100%;
     }
 
@@ -413,14 +413,7 @@ a {
     flex-wrap: wrap;
     padding: 3em 0;
     width: 100%;
-
-}
-
-
-
-#ebooks-section-1 h2, #ebooks-section-2 h2, #differentiation h2 {
-    color: var(--text-color);
-    text-transform: uppercase;
+    visibility: hidden;
 }
 
 #ebooks-section-2 {
@@ -431,6 +424,12 @@ a {
     padding: 3em 0;
     width: 100%;
     background-color: var(--bg-page-secondary);
+    visibility: hidden;
+}
+
+#ebooks-section-1 h2, #ebooks-section-2 h2, #differentiation h2 {
+    color: var(--text-color);
+    text-transform: uppercase;
 }
 
 #details-section, #dif-items, #result-text {
@@ -574,10 +573,12 @@ a {
 @media (min-width: 320px) and (max-width: 500px) {
     #ebooks-section-1 {
         padding: 2.5em;
+        pointer-events: none;
     }
 
     #ebooks-section-2 {
         padding: 2.5em;
+        pointer-events: none;
     }
 
     #details-section h2 {
@@ -1138,6 +1139,7 @@ a {
     gap: 2em;
     background-color: var(--bg-page-primary);
     color: var(--text-color);
+    visibility: hidden;
 }
 
 .professional-description {

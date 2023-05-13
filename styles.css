@@ -180,14 +180,14 @@ a {
     z-index: 1;
     width: min(450px, 450px);
     height: min(500px, 500px);
-    background-image: url('./assets/photo-header.jpg');
+    background-image: url('./assets/photo-header-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     /* margin-top: -20px; */
-    /* box-shadow: 0px 0px 20px 14px rgba(0,0,0,0.1); */
+    box-shadow: inset 0px -47px 29px -21px var(--bg-page-primary);
 }
 
 .default-button {

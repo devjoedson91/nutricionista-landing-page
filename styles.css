@@ -224,7 +224,11 @@ a {
     }
 
     .disclaimer p {
-        font-size: 1em;
+        font-size: 18px;
+    }
+
+    .disclaimer span {
+        font-size: 19px;
     }
 
     #logo {

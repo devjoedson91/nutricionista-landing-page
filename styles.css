@@ -179,7 +179,7 @@ a {
 .photo-description {
     z-index: 1;
     width: 650px;
-    height: min(500px, 500px);
+    height: min(550px, 550px);
     background-image: url('./assets/photo-header-2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ a {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     /* margin-top: -20px; */
-    box-shadow: inset 0px -47px 29px -21px var(--bg-page-primary);
+    box-shadow: inset 0px -47px 15px -21px #fcf2ee;
 }
 
 .default-button {

@@ -250,6 +250,7 @@ a {
 
     #home-section {
         background-size: 100%;
+        overflow-x: hidden;
     }
 
     #header-btn {
@@ -281,7 +282,6 @@ a {
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
-        width: 50%;
         position: absolute;
         top: 8.6rem;
         right: 0;

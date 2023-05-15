@@ -88,8 +88,8 @@ a {
 .home-section {
 
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
     /* padding-top: 20px; */
     background-image: url('https://img.freepik.com/free-photo/food-background-with-ingredients-pasta_1220-3108.jpg?w=740&t=st=1682781364~exp=1682781964~hmac=f50948678f52932419bf2ecba8d2c2d9c5e3b66e7ef45f05866ff412df8aae7e');
     background-position: center;
@@ -178,7 +178,7 @@ a {
 
 .photo-description {
     z-index: 1;
-    width: min(450px, 450px);
+    width: 650px;
     height: min(500px, 500px);
     background-image: url('./assets/photo-header-2.png');
     background-repeat: no-repeat;

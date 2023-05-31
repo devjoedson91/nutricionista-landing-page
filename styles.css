@@ -9,8 +9,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
 :root {
-    --primary: #eb1ccc;
+    /* --primary: #eb1ccc; */
     --secondary: #1188d1;
     --bg-page-primary: #fcf5f5;
     --bg-page-secondary: #ffffff;
@@ -30,7 +35,6 @@ body {
 
 a {
     color: var(--text-white);
-    text-decoration: none;
 }
 
 #horizontal-line {
@@ -79,7 +83,6 @@ a {
     bottom: -15px;
     left: 0;
     transition: 0.5s ease-in-out;
-    
 }
 
 .nav-menu a:hover::after {
@@ -88,7 +91,7 @@ a {
 
 /* ----- */
 
-.home-section {
+.home {
 
     /* display: flex;
     flex-direction: row-reverse;
@@ -102,7 +105,7 @@ a {
     position: relative;
 }
 
-.home-section::before {
+.home::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -151,7 +154,7 @@ a {
 }
 
 .disclaimer img {
-    width: 400px;
+    width: 90%;
     transition: 0.5s ease-in-out;
     z-index: 1;
     cursor: pointer;
@@ -261,7 +264,7 @@ a {
         font-size: 9px;
     }
 
-    #home-section {
+    .home {
         background-size: 100%;
         overflow-x: hidden;
     }
@@ -271,20 +274,6 @@ a {
         font-size: 18px;
         align-self: center;
     }
-
-    /* #header-btn::after {
-        
-        width: 40px;
-        height: 40px;
-        top: -20px;
-        
-    }
-
-    #header-btn::before {
-        width: 50px;
-        height: 30px;
-        bottom: -15px;
-    } */
 
     .photo-description {
         display: none;
@@ -441,22 +430,27 @@ a {
     visibility: hidden;
 }
 
-#ebooks-section-1 h2, #ebooks-section-2 h2, #differentiation h2 {
+#ebooks-section-1 h2, #ebooks-section-2 h2 {
     color: var(--text-color);
     text-transform: uppercase;
 }
 
-#details-section, #dif-items, #result-text {
+#details-section {
 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 1.5em;
-    max-width: 500px;
+    gap: 3rem;
+    max-width: 50%;
 }
 
 #details-section h2 {
+    font-size: 2rem;
     font-weight: bold;
+}
+
+#details-section p {
+    font-size: 1.7rem;
 }
 
 .detail-item, .dif-item {
@@ -1163,13 +1157,14 @@ a {
     gap: 1.5em;
 }
 
-.professional-description h2 {
+/* .professional-description h2 {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-}
+} */
 
 .professional-description p {
+    font-size: 1.7rem;
     line-height: 30px;
     font-weight: 500;
     
@@ -1258,6 +1253,21 @@ a {
 
 #logo-footer #logo-description p {
     font-size: 13px;
+}
+
+.footer-icontop {
+    position: absolute;
+    right: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
+    background: var(--bg-buttons);
+    border-radius: .6rem;
+}
+
+.footer-icontop a i {
+    font-size: 2.4rem;
+    font-weight: bold;
 }
 
 #contacts {

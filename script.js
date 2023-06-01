@@ -14,9 +14,9 @@
 
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal('#ebooks-section-1', {duration: 2000});
-sr.reveal('#ebooks-section-2', {duration: 2000});
-sr.reveal('#professional-perfil', {duration: 2000});
+sr.reveal('#ebooks-section-1', {duration: 1000});
+sr.reveal('#ebooks-section-2', {duration: 1000});
+sr.reveal('#professional-perfil', {duration: 1000});
 
 const navButton = document.querySelector('.navButton');
 
